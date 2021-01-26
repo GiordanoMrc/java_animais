@@ -7,6 +7,7 @@ public class NodeBT {
     public NodeBT rightNode;
 
     public NodeBT(int element, String value) {
+        System.out.println(element + " - " + value);
         this.element = element;
         this.value = value;
 
