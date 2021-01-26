@@ -18,7 +18,8 @@ Na minha implementação, é necessário entender como: 1) funciona uma Binary T
 Neste jogo, o usuário responde uma série de perguntas relacionadas a um animal imaginário.
 
 Assim, é gerada uma àrvore de decisão:
-```        vive na agua?
+```        
+        vive na agua?
         |           |
         Sim         Não
         |
