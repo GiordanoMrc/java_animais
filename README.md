@@ -71,3 +71,6 @@ Além disso, na classe App.java, faço a implementação explicita(@Override/ So
 
 O Jogo em si é um laço de repetição que: Gera a Arvore -> Executa as Perguntas -> Armazena os Dados das Respostas -> Executa Perguntas -> Armazena...
 
+# Implementação usando Spring-Boot
+
+Esse projeto pode ser feito utilizando o SpringMVC, só criarmos uma Classe GAMELOGIC e executarmos as regras do jogo na Main() do SpringAplication.
