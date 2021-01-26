@@ -5,7 +5,7 @@ Implementação do Jogo animais usando Java + Maven
 ## JAR
 Dentro da pasta jogoAnimais:
 
-'''java -jar target/jogoAnimais-1.0-SNAPSHOT.jar'''
+```java -jar target/jogoAnimais-1.0-SNAPSHOT.jar```
 
 # Meu Projeto
 
@@ -18,7 +18,7 @@ Na minha implementação, é necessário entender como: 1) funciona uma Binary T
 Neste jogo, o usuário responde uma série de perguntas relacionadas a um animal imaginário.
 
 Assim, é gerada uma àrvore de decisão:
-'''        vive na agua?
+```        vive na agua?
         |           |
         Sim         Não
         |
@@ -30,7 +30,7 @@ Assim, é gerada uma àrvore de decisão:
                     |
                     Baleia
                     |
-                Um(a)  Baleia ______ mas um(a) Peixe Palhaço não.'''
+                Um(a)  Baleia ______ mas um(a) Peixe Palhaço não.```
 
 A cada ciclo, vamos construindo uma arvore adicionando ANIMAIS com uma CARACTERISTICA que o animal DEFINIDO(ex.Peixe Palhaço).
 
@@ -39,7 +39,7 @@ Armazenamos então esses ANIMAIS e suas CARACTERISTICAS em uma Arvore Binária.
 ## Estrutura da Binary Tree
 
 Na minha implementação, um exemplo é:
-'''1 - vive na agua?
+```1 - vive na agua?
 2 - Cachorro
 3 - Peixe Palhaço
 4 - Baleia
@@ -48,7 +48,7 @@ Na minha implementação, um exemplo é:
 7 - Cachorro
 8 - Zebra
 9 - Cachorro
-'''
+```
 
                 1
             |       |
