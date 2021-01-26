@@ -30,7 +30,8 @@ Assim, é gerada uma àrvore de decisão:
                     |
                     Baleia
                     |
-                Um(a)  Baleia ______ mas um(a) Peixe Palhaço não.```
+                Um(a)  Baleia ______ mas um(a) Peixe Palhaço não.
+```
 
 A cada ciclo, vamos construindo uma arvore adicionando ANIMAIS com uma CARACTERISTICA que o animal DEFINIDO(ex.Peixe Palhaço).
 
@@ -49,6 +50,7 @@ Na minha implementação, um exemplo é:
 8 - Zebra
 9 - Cachorro
 ```
+```
 
                 1
             |       |
@@ -58,7 +60,7 @@ Na minha implementação, um exemplo é:
             |
           |   |
           8   9
-
+```
 ## DAO
 
 Seguindo essa lógica, utilizo o design pattern DAO para fazer acesso a classe(ou dominio/ou persistencia/ ou TAD) nodeBinaryTree.
