@@ -7,7 +7,7 @@ Dentro da pasta jogoAnimais:
 
 ```java -jar target/jogoAnimais-1.0-SNAPSHOT.jar```
 
-# Meu Projeto
+# O Projeto
 
 Outros projetos, disponíveis na internet, implementam esse jogo, que apesar de não ser um jogo difícil de implementar, requer um certo conhecimento de TAD's não padrões do Java.
 
@@ -74,6 +74,14 @@ Além disso, na classe App.java, faço a implementação explicita(@Override/ So
 
 O Jogo em si é um laço de repetição que: Gera a Arvore -> Executa as Perguntas -> Armazena os Dados das Respostas -> Executa Perguntas -> Armazena...
 
+## Avaliação da implementação
+
+Essa implementação não é a mais otimizada para o problema!! A Arvore Binária replica vários Nós, sendo assim, uma má implementação para o problema.
+
+Seria muito mais interessante usar dois Vetores/Listas para armazenar sequencialmente os registros de ANIMAIS e suas CARACTERISTICAS.
+
+Assim, teríamos  duas listas: uma de Animais aquáticos e outra de Animais terrestres/aves.
+
 # Implementação usando Spring-Boot
 
-Esse projeto pode ser feito utilizando o SpringMVC, só criarmos uma Classe GAMELOGIC e executarmos as regras do jogo na Main() do SpringAplication.
+Para esse projetom pode ser feito um webapp utilizando o SpringMVC, postarei o código quando estiver pronto...
